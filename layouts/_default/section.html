@@ -1,18 +1,24 @@
-<!doctype html>
-<html>
-  <body>
+{{ define "main" }}
+
+<main class="main">
+  <header class="page-header">
     <h1>{{ .Title }}</h1>
+  </header>
 
-    <p>DEBUG: section template is loading.</p>
+  <article class="page-content">
+    {{ .Content }}
+  </article>
 
-    <div>{{ .Content }}</div>
+  {{ if .Pages }}
+    <ul>
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 
-    {{ if .Pages }}
-      <ul>
-        {{ range .Pages }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      </ul>
-    {{ end }}
-  </body>
-</html>
+</main>
+
+{{ end }}

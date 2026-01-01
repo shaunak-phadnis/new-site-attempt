@@ -5,7 +5,7 @@ title: "Shaunak Phadnis"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-footnotereturnlinkcontents: "↩"
+footnotereturnlinkcontents: "↩" 
 
 module:
   imports:

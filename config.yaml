@@ -33,7 +33,7 @@ menu:
 
 params:
   description: ""
-  footer: "&copy; Shaunak Phadnis {Year} | [Google Scholar](https://scholar.google.com/citations?user=gvn-fXAAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/shaunak-phadnis-a09333214/)"
+  footer: "&copy; Shaunak Phadnis {Year} *built from* [x-min theme](https://github.com/yihui/hugo-xmin) | [Google Scholar](https://scholar.google.com/citations?user=gvn-fXAAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/shaunak-phadnis-a09333214/)"
 
 markup:
   highlight:
